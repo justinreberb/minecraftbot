@@ -9,7 +9,7 @@ int main()
 
     inputTaker();
     marksLoop();
-    double total = sum;
+    double total = sum;//test
     double avg = sum / 5;
     std::cout << total<<std::endl;
 
