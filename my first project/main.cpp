@@ -15,7 +15,7 @@ int main()
 
     std::cout << avg<<std::endl;
 }
-
+//commit
 void marksLoop()
 {
 
