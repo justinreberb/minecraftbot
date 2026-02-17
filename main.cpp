@@ -1,9 +1,32 @@
+// #include <iostream>
+
+// int main(){
+
+//     std::cout<<"hello world";
+//     std::string gekk;
+
+// }//this is my first program
+// //test
+
 #include <iostream>
+
+using namespace std;
+int a;
+int b;
+int sum;
+void s();
 
 int main(){
 
-    std::cout<<"hello world";
-    std::string gekk;
+    cout<<"Enter your first number"<<endl;
+    cin>>a;
+    cout<<"Enter your second number"<<endl;
+    cin>>b;
 
-}//this is my first program
-//test
+    s();
+}
+
+void s(){
+ sum = a + b;
+    cout<<sum<<endl;
+}
